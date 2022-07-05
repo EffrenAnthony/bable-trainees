@@ -37,7 +37,7 @@ Te damos la biendenida a esta semana de trainee, reucerda que si ya conoces o ti
 <br/>
 <br/>
 
-### ***`2. FullstackFundamentos de Web`***
+### ***`2. Fundamentos de Web`***
 
   El objetivo de este modulo es que conozcas, `Como funciona la web moderna?` y cuales son los caminos que puedes tomar dentro de ella
 
