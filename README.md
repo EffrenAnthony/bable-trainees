@@ -62,11 +62,8 @@ En pocas palabras, iniciarte en el camino de un desarrollador `Full Stack`
 
 ## Nota 1
 
-```bash
-Toda la información brindada es una recopilación de años de experiencia de nuestros colaboradores, te pedimos que no la compartas, ya que muy pronto tu mismo agregaras tus propios aportes que apoyarán a futuros trainees.
-```
+    Toda la información brindada es una recopilación de años de experiencia de nuestros colaboradores, te pedimos que no la compartas, ya que muy pronto tu mismo agregaras tus propios aportes que apoyarán a futuros trainees.
+
 ## Nota 2
 
-```bash
-Sabemos que la información brindada es extensa y esperamos que puedas completar de leer las documentaciones que te brindamos y aprender de los videos compartidos en el tiempo que corresponde, sin embargo, no te preocupes si no logras hacerlo, tendras tiempo para hacerlo y trataremos de solucionar tus dudas en los workshops. Lo mas importante es tu compromiso, tu dedicación, tu responsabilidad y tus ganas de aprender. NO TE RINDAS!!
-```
+    Sabemos que la información brindada es extensa y esperamos que puedas completar de leer las documentaciones que te brindamos y aprender de los videos compartidos en el tiempo que corresponde, sin embargo, no te preocupes si no logras hacerlo, tendras tiempo para hacerlo y trataremos de solucionar tus dudas en los workshops. Lo mas importante es tu compromiso, tu dedicación, tu responsabilidad y tus ganas de aprender. NO TE RINDAS!!
