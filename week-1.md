@@ -1,6 +1,6 @@
 # Semana 1
 
-Te damos la biendenida a esta semana de trainee, reucerda que si ya conoces o tienes experiencia en alguno de los temas brindados, no dudes en saltarlo, sin embargo, tomate el tiempo para revisar cada punto y estar seguro de que tienes conocimiento sobre el y asi poder concluir exitosamente cada workshop y tener la menor cantidad de dudas al salir de el.
+Te damos la biendenida a esta semana de trainee, recuerda que si ya conoces o tienes experiencia en alguno de los temas brindados, no dudes en saltarlo, sin embargo, tomate el tiempo para revisar cada punto y estar seguro de que tienes conocimiento sobre el y asi poder concluir exitosamente cada workshop y tener la menor cantidad de dudas al salir de el.
 
 ## Temas Y Objetivos
 
@@ -87,7 +87,7 @@ Te damos la biendenida a esta semana de trainee, reucerda que si ya conoces o ti
 
 ### ***`4. Maquetación y Bootstrap`***
 
-  El objetvio de esta seccion es que puedas aprender a convertir un diseño de interfaces, a un proyecto web con la precision que demanda un trabajo profesional.
+  El objetivo de esta seccion es que puedas aprender a convertir un diseño de interfaces, a un proyecto web con la precision que demanda un trabajo profesional.
 
   `Que debo saber?`
   - Entender y Leer un diseño UI en Figma
@@ -115,7 +115,7 @@ Te damos la biendenida a esta semana de trainee, reucerda que si ya conoces o ti
   Como desarrolladores debemos poder tener a la mano herramientas y buenas practicas que nos ayuden a hacer nuestro trabajo mas facil, estas herramientas pueden ser librerias externas a nuestros proyectos o simples metodologias que al ser aplicadas, seran de gran ayuda en nuestro trabajo, haciendo nuestro codigo mas legible para todo el equipo y facilitando el mantimiento del mismos. Los pre procesadores de CSS nos permitiran tener esa agilidad para dar estilos y tener una mejor sintaxis de css, y la metodologia BEM, nos dara un orden al momento de elegir nuestras clases en los elementos.
 
   `Que debo saber?`
-  - Entender la importancia de un pre prosadores de CSS
+  - Entender la importancia de un pre procesadores de CSS
   - Conocer los pre procesadores de CSS
   - Dominar la sintaxis basica de SCSS
   - Entender y aplicar la metogia BEM
@@ -132,7 +132,7 @@ Te damos la biendenida a esta semana de trainee, reucerda que si ya conoces o ti
 
 ### ***`6. Javascript y Event Loop (ES6+)`***
 
-  Llegamos al lenguaje mas importante para este training y sobre el cual corre la web. Javascript es un lenguaje que tiene multiples propocitos, desde crear aplicaciones web y mobiles, hasta servicios en web 3 para blockchain. Este lenguaje sera la base de todo tu proceso durante el training.
+  Llegamos al lenguaje mas importante para este training y sobre el cual corre la web. Javascript es un lenguaje que tiene multiples propositos, desde crear aplicaciones web y moviles, hasta servicios en web 3 para blockchain. Este lenguaje sera la base de todo tu proceso durante el training.
 
   `Que debo saber?`
   - Declaracion de variables
@@ -165,7 +165,7 @@ Te damos la biendenida a esta semana de trainee, reucerda que si ya conoces o ti
 
 ### ***`7. API Rest`***
 
-  Application Programing Interface (API), es la manera como vamos a comunicar nuestros programas entres si, para ser mas especificos, nuestro frontend con nuestro backend. Es importante que sepas esto ya que gracias a este tema, es que hoy en día existen las lamadas Web Applications.
+  Application Programing Interface (API), es la manera como vamos a comunicar nuestros programas entre si, para ser mas especificos, nuestro frontend con nuestro backend. Es importante que sepas esto ya que gracias a este tema, es que hoy en día existen las lamadas Web Applications.
 
   `Que debo saber?`
   - Ques una API y como funciona
