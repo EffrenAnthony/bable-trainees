@@ -35,19 +35,60 @@ En pocas palabras, iniciarte en el camino de un desarrollador `Full Stack`
 - Mongo DB
 - Express
 
+
+## Consideraciones Previas
+
+Para poder realizar este training necesitaras cumplir con los requisitos en esta lista, de no contar con alguno, no dudes en ponerte en contacto con tu Tech Lead.
+
+- SO. Windows, Linux o Mac
+- Terminal, linea de comandos, bash, zsh, windows terminal o power shell
+- Visual estudio Code o el editor de codigo de tu preferencia
+- Cuenta en [Github](https://github.com/)
+- GitHub Vinculado a Git por SSH (Mira este video segun tu sistema operativo si no sabes como hacerlo)
+    - [Windows](https://www.youtube.com/watch?v=a-zX_qc2S-M)
+    - [Mac / Linux](https://www.youtube.com/watch?v=nZYJKXXMvkM)
+- Node JS Instalado (Comprueba corriendo en tu terminal)
+    ```bash
+    node -v
+    ```
+
+    respuesta esperada (v10 +)
+
+    ```bash
+    v14.18.1   
+    ```
+
+- npm Instalado (Comprueba corriendo en tu terminal)
+    ```bash
+    npm -v
+    ```
+
+    respuesta esperada (v6 +)
+
+    ```bash
+    6.14.15 
+    ```
+- Git Instalado (Comprueba corriendo en tu terminal)
+    ```bash
+    git --version
+    ```
+
+    respuesta esperada (v2 +)
+
+    ```bash
+    git version 2.32.1
+    ```
+
 ## 1 Month Trainee
 
 ### - Semana 1
     - Git/GitHub
     - Fullstack overview
     - Fundamentos de Web
-    - HTML
-    - CSS
-    - Maquetación
-    - Bootstrap
-    - Pre procesadores y SASS
-    - Javascript (ES6)
-    - Event Loop
+    - HTML y CSS
+    - Maquetación y Bootstrap
+    - Pre procesadores y SASS (BEM)
+    - Javascript y Event Loop (ES6)
     - API Rest
     - Proyecto (NETFLIX JS Vanilla)
     
