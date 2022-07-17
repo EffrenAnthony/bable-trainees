@@ -1,0 +1,1 @@
+const process_env_API_KEY = 'API_KEY'
