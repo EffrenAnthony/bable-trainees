@@ -4,6 +4,13 @@
   font-family: "Roboto", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 1px;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
 menu {
   padding: 0;
 }
@@ -60,24 +67,41 @@ body {
   display: block;
 }
 
-.movies-collection__card--image:hover, .movies-collection__card--info:hover {
+.movies-collection__card--info:hover {
   display: block;
 }
 
+.carousel__container {
+  white-space: nowrap;
+}
+
 .movies-collection {
-  margin: 20px 30px;
+  margin: 20px 0px;
+  overflow: scroll;
+  position: relative;
+  min-height: 300px;
 }
 .movies-collection__card {
+  display: inline-block;
+  margin: 20px 5px;
   width: 220px;
-  height: 120px;
+  min-height: 300px;
+  overflow: hidden;
+  transition: transform 0.2s;
   position: relative;
+}
+.movies-collection__card:hover {
+  transform: scale(1.1);
 }
 .movies-collection__card--image {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  width: 100%;
+  width: 220px;
+  min-height: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 .movies-collection__card--image:hover {
   border-bottom-left-radius: 0px;
@@ -86,17 +110,19 @@ body {
 .movies-collection__card--info {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  background: rgb(230, 230, 230);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(5deg, rgb(0, 0, 0) 0%, rgb(6, 9, 23) 25%, rgba(255, 255, 255, 0) 100%);
   padding: 10px;
   position: absolute;
-  top: 115px;
+  bottom: 0px;
   display: none;
   width: 100%;
-  height: 100%;
+  height: 120px;
 }
 .movies-collection__card--info-title {
   font-size: 20px;
   font-weight: bold;
+  color: #ffffff;
 }
 .movies-collection__card--info-prota {
   font-size: 15px;
@@ -104,7 +130,7 @@ body {
 }
 .movies-collection__card--info-duration {
   font-size: 12px;
-  color: #8E5EF9;
+  color: #ffffff;
 }
 .movies-collection__card--info-actions {
   margin-top: 20px;
@@ -113,6 +139,7 @@ body {
 }
 .movies-collection__card--info-actions i {
   margin: 0px 7px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */
