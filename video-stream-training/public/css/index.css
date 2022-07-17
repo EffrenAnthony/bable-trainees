@@ -60,7 +60,7 @@ body {
   display: block;
 }
 
-.movies-collection__card--image:hover .movies-collection__card, .movies-collection__card--info:hover {
+.movies-collection__card--image:hover, .movies-collection__card--info:hover {
   display: block;
 }
 
