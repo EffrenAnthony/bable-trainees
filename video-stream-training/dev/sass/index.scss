@@ -7,6 +7,10 @@
 menu{
   padding:0;
 }
+
+body {
+  background-color: rgb(36, 33, 33);
+}
 .navbar {
   padding: 10px 15px;
   background-color: rgb(36, 33, 33);
@@ -47,6 +51,65 @@ menu{
       color: #fff;
       margin-top: 10px;
       min-width: 100px;
+    }
+  }
+}
+
+
+.movies-collection__card--image:hover + .movies-collection__card--info{
+  display: block;
+}
+.movies-collection__card--image:hover .movies-collection__card, .movies-collection__card--info:hover{
+  display: block;
+}
+
+.movies-collection{
+  margin: 20px 30px;
+  &__card{
+    width: 220px;
+    height: 120px;
+    position: relative;
+    &--image{
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      width: 100%;
+      &:hover{
+        border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      }
+    }
+    &--info{
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background:rgb(230, 230, 230);
+      padding: 10px;
+      position: absolute;
+      top: 115px;
+      display: none;
+      width: 100%;
+      height: 100%;
+      &-title{
+        font-size: 20px;
+        font-weight: bold;
+      }
+      &-prota{
+        font-size: 15px;
+        color: rgb(163, 163, 163);
+      }
+      &-duration{
+        font-size: 12px;
+        color: #8E5EF9;
+      }
+      &-actions{
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+        i{
+          margin: 0px 7px;
+        }
+      }
     }
   }
 }

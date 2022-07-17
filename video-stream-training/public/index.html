@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/045147568d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <menu>
@@ -35,11 +39,21 @@
         </div>
       </div>
     </header>
-    <section>
-      <div>
-        <p>Titulo de pelicula</p>
-        <p>Prota</p>
-        <p>Duracion</p>
+    <section class="movies-collection">
+      <div class="movies-collection__card">
+        <img
+          class="movies-collection__card--image"
+          src="https://images.pexels.com/videos/1526909/free-video-1526909.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
+        />
+        <div class="movies-collection__card--info">
+          <p class="movies-collection__card--info-title">Titulo de pelicula</p>
+          <p class="movies-collection__card--info-prota">Prota</p>
+          <p class="movies-collection__card--info-duration">Duracion</p>
+          <div class="movies-collection__card--info-actions">
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-thumbs-up"></i>
+          </div>
+        </div>
       </div>
     </section>
     <footer></footer>
