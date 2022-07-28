@@ -1,3 +1,5 @@
+$width: 360px;
+$height: 220px;
 * {
   margin: 0;
   box-sizing: border-box;
@@ -38,11 +40,12 @@ body {
 }
 
 .header {
-  background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/24701-nature-natural-beauty.jpg);
   background-size: cover;
   min-height: 300px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 30px;
   &__left{
     margin: 40px 20px;
     h1{
@@ -71,16 +74,26 @@ body {
 .carousel__container{
   white-space: nowrap;
 }
+
+.movies-type{
+  margin-top: -20px;
+  margin-left: 10px;
+  &__title{
+    color: #fff;
+    font-size: 19px;
+  }
+}
+
 .movies-collection{
-  margin: 20px 0px;
+  
   overflow: scroll;
   position: relative;
-  min-height: 300px;
+  min-height: $height;
   &__card{
     display: inline-block;
-    margin: 20px 5px;
-    width: 220px;
-    min-height: 300px;
+    margin: 10px 8px;
+    width: $width;
+    min-height: $height;
     overflow: hidden;
     transition: transform .2s;
     &:hover{
@@ -92,8 +105,8 @@ body {
       border-top-right-radius: 5px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
-      width: 220px;
-      min-height: 300px;
+      width: $width;
+      min-height: $height;
       -o-object-fit: cover;
       object-fit: cover;
       &:hover{
@@ -111,7 +124,7 @@ body {
       bottom: 0px;
       display: none;
       width: 100%;
-      height: 120px;
+      height: 115px;
       &-title{
         font-size: 20px;
         font-weight: bold;
@@ -126,11 +139,11 @@ body {
         color: #ffffff;
       }
       &-actions{
-        margin-top: 20px;
+        margin-top: 0px;
         display: flex;
         justify-content: flex-end;
         i{
-          margin: 0px 7px;
+          margin: 0px 10px;
           color: #ffffff;
         }
       }

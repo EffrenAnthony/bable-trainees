@@ -41,11 +41,12 @@ body {
 }
 
 .header {
-  background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/24701-nature-natural-beauty.jpg);
   background-size: cover;
   min-height: 300px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 30px;
 }
 .header__left {
   margin: 40px 20px;
@@ -75,17 +76,25 @@ body {
   white-space: nowrap;
 }
 
+.movies-type {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.movies-type__title {
+  color: #fff;
+  font-size: 19px;
+}
+
 .movies-collection {
-  margin: 20px 0px;
   overflow: scroll;
   position: relative;
-  min-height: 300px;
+  min-height: 220px;
 }
 .movies-collection__card {
   display: inline-block;
-  margin: 20px 5px;
-  width: 220px;
-  min-height: 300px;
+  margin: 10px 8px;
+  width: 360px;
+  min-height: 220px;
   overflow: hidden;
   transition: transform 0.2s;
   position: relative;
@@ -98,8 +107,8 @@ body {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  width: 220px;
-  min-height: 300px;
+  width: 360px;
+  min-height: 220px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -117,7 +126,7 @@ body {
   bottom: 0px;
   display: none;
   width: 100%;
-  height: 120px;
+  height: 115px;
 }
 .movies-collection__card--info-title {
   font-size: 20px;
@@ -133,12 +142,12 @@ body {
   color: #ffffff;
 }
 .movies-collection__card--info-actions {
-  margin-top: 20px;
+  margin-top: 0px;
   display: flex;
   justify-content: flex-end;
 }
 .movies-collection__card--info-actions i {
-  margin: 0px 7px;
+  margin: 0px 10px;
   color: #ffffff;
 }
 
