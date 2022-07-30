@@ -2,4 +2,4 @@
 
 Aplicacion web.
 
-![Vista previa](https://github.com/FranklinCncr/MiniCalculadora_Angular/blob/master/src/assets/minicalculadora.jpg)
+![Vista previa](https://github.com/FranklinCncr/bable-trainees/blob/franklin-branch/video-stream-training/dev/img/vista.png)
