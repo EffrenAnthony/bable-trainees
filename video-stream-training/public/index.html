@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>   
+    <script src="./js/bootstrap.min.js" type="text/javascript"> </script>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,15 +21,16 @@
     ></script>
     <script src="../env.js" type="text/javascript"></script>
     <script src="../dev/js/index.js" type="text/javascript"></script>
-    <!-- <script src="./js/index.js" type="text/javascript"></script> -->
+    
+    
+
+    <!--<script src="./js/index.js"type="text/javascript"></script>--> 
   </head>
   <body>
+    
     <menu>
       <nav class="navbar">
-        <img
-          src="https://static.rfstat.com/renderforest/images/v2/landing-pics/logo-animation/banner-video.png"
-          class="navbar__logo"
-        />
+        <img src="https://static.rfstat.com/renderforest/images/v2/landing-pics/logo-animation/banner-video.png" class="navbar__logo"/>
         <ul>
           <li class="navbar__item">Inicio</li>
           <li class="navbar__item">Contactanos</li>
@@ -43,31 +46,51 @@
         </div>
       </div>
     </header>
-    <section class="movies-collection" id="videosSection">
-      <!-- <div class="movies-collection__card">
-        <img
-          class="movies-collection__card--image"
-          src="https://images.pexels.com/videos/1526909/free-video-1526909.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200"
-        />
-        <div class="movies-collection__card--info">
-          <p class="movies-collection__card--info-title">Titulo de pelicula</p>
-          <p class="movies-collection__card--info-prota">Prota</p>
-          <p class="movies-collection__card--info-duration">Duracion</p>
-          <div class="movies-collection__card--info-actions">
-            <i class="fa-solid fa-play"></i>
-            <i class="fa-solid fa-thumbs-up"></i>
+    
+    <section class="movies-type">
+      <h2 class="movies-type__title">Documentales recientes</h2>
+    </section>
+
+    <section class="movies-collection" id="videosSection">      
+    </section>
+
+    <section class="movies-type">
+      <h2 class="movies-type__title">Ciencia y ficción</h2>
+    </section>
+
+    <section class="movies-collection" id="videosSection2">      
+    </section>
+
+    <!-- --------------------- footer----------------------- -->
+    <footer class="footer">
+      <div class="footer__group1">
+        <div class="footer__group1__box">
+          <figure>
+            <a href="#">
+              <img src="https://static.rfstat.com/renderforest/images/v2/landing-pics/logo-animation/banner-video.png" alt="logo">
+            </a>
+          </figure>
+        </div>
+        <div class="footer__group1__box">
+          <h2>Sobre Nosotros</h2>
+          <p>Somos un equipo que agrega videos actuales en alta calidad. </p>
+          <p>Video streaming de diversos géneros en diferentes calidades.</p>
+          
+        </div>
+        <div class="footer__group1__box">
+          <h2>Nuestras Redes</h2>
+          <div class="footer__group1__box__red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
           </div>
         </div>
-      </div> -->
-    </section>
-    <iframe
-      src="https://player.vimeo.com/external/296210754.hd.mp4?s=08c03c14c04f15d65901f25b542eb2305090a3d7&profile_id=175&oauth2_token_id=57447761"
-      width="640"
-      height="360"
-      frameborder="0"
-      allow="autoplay; fullscreen"
-      allowfullscreen
-    ></iframe>
-    <footer></footer>
+      </div>
+
+      <div class="footer__group2">
+        <small>&copy; 2022 <b>Video Streaming</b> - Todos los derechos reservados.</small>
+      </div>
+    </footer>
   </body>
 </html>

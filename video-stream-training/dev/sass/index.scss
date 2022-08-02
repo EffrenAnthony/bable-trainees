@@ -1,3 +1,5 @@
+$width: 360px;
+$height: 220px;
 * {
   margin: 0;
   box-sizing: border-box;
@@ -38,11 +40,12 @@ body {
 }
 
 .header {
-  background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/24701-nature-natural-beauty.jpg);
   background-size: cover;
   min-height: 300px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 30px;
   &__left{
     margin: 40px 20px;
     h1{
@@ -71,16 +74,26 @@ body {
 .carousel__container{
   white-space: nowrap;
 }
+
+.movies-type{
+  margin-top: -20px;
+  margin-left: 10px;
+  &__title{
+    color: #fff;
+    font-size: 19px;
+  }
+}
+
 .movies-collection{
-  margin: 20px 0px;
+  
   overflow: scroll;
   position: relative;
-  min-height: 300px;
+  min-height: $height;
   &__card{
     display: inline-block;
-    margin: 20px 5px;
-    width: 220px;
-    min-height: 300px;
+    margin: 10px 8px;
+    width: $width;
+    min-height: $height;
     overflow: hidden;
     transition: transform .2s;
     &:hover{
@@ -92,8 +105,8 @@ body {
       border-top-right-radius: 5px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
-      width: 220px;
-      min-height: 300px;
+      width: $width;
+      min-height: $height;
       -o-object-fit: cover;
       object-fit: cover;
       &:hover{
@@ -111,7 +124,7 @@ body {
       bottom: 0px;
       display: none;
       width: 100%;
-      height: 120px;
+      height: 115px;
       &-title{
         font-size: 20px;
         font-weight: bold;
@@ -126,14 +139,75 @@ body {
         color: #ffffff;
       }
       &-actions{
-        margin-top: 20px;
+        margin-top: 0px;
         display: flex;
         justify-content: flex-end;
         i{
-          margin: 0px 7px;
+          margin: 0px 10px;
           color: #ffffff;
         }
       }
     }
+  }
+}
+
+.footer{  
+  width: 100%;
+  background-color: #111;
+  &__group1{
+    width: 100%;
+    max-width: 1200px;
+    //background-color: #8E5EF9;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding: 20px 0px;
+    &__box figure{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__box figure img{
+      width: 150px;
+    }
+    &__box h2{
+      color: #ccc;
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+    &__box p{
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+    &__box__red-social a{
+      display: inline-block;
+      text-decoration: none;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      color: #ddd;
+      text-align: center;
+    }
+    &__box__red-social a:hover{      
+      color: #59f;
+    }
+  }
+  &__group2{
+    color: #ccc;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .footer .footer__group1{
+    width: 90%;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    text-align: center;
   }
 }
